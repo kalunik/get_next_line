@@ -6,7 +6,7 @@
 /*   By: wjonatho <wjonatho@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/02 17:07:52 by wjonatho          #+#    #+#             */
-/*   Updated: 2021/10/02 17:07:52 by wjonatho         ###   ########.fr       */
+/*   Updated: 2021/10/06 14:51:42 by wjonatho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <fcntl.h>
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 1
 # endif
